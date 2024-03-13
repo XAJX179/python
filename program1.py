@@ -2,7 +2,6 @@ print("Adress")
 print("3 Raju Complex")
 print("Guruku")
 print("MEMna]]oksls")
-print("Abad 294870")
 
 a,b=0,1
 
