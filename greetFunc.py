@@ -1,5 +1,5 @@
 def greet(n):
-    print(f"{n} ,Good Afternoon")
+    print(f"Good Afternoon 	⊂(◉‿◉)つ {n}")
 
 greet("ayush")
 greet("baru")
