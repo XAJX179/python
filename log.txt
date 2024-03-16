@@ -54,7 +54,7 @@ initialized
 initialized
 03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP
 03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp
+03/22 08:51:06 TRACE  :Python here hello bitch
 03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP via UDP
 03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp-udp
-03/22 08:51:06 TRACE  :Python here hello bitch
 initialized

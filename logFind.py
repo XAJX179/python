@@ -1,7 +1,10 @@
+content=True
+i=1
 with open('log.txt') as f:
-    content = f.read()
 
-if 'python' in content.lower():
-    print(f'Present at ')
-else:
-    print('Not Present. F')
+    while content:
+        content = f.readline()
+
+        if 'python' in content.lower():
+            print(f'Present at {i}')
+        i+=1
