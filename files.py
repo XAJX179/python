@@ -1,5 +1,5 @@
 
 f= open('sample.txt')
-x = f.read()
+x = f.read(6)
 print(x)
 f.close()
