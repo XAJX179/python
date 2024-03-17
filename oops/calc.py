@@ -1,9 +1,13 @@
 class Number:
     def __init__(self,num):
         self.number=num
+        self.greet()
         self.cube()
         self.square()
      
+    @staticmethod
+    def greet():
+        print("Heloo!!!!")
 
     def square(self):
         print(f"Square : {self.number ** 2}")
