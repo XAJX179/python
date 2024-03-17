@@ -12,14 +12,14 @@ def factfunc(n):
         sum = sum * i
     return print(sum)
 
-# factfunc(int(input("Enter No.  ⤜(ⱺ ʖ̯ⱺ)⤏  : ")))
+factfunc(int(input("Enter No.  ⤜(ⱺ ʖ̯ⱺ)⤏  : ")))
 
 def factorecursive(n):
     if n == 0 or n == 1:
         return 1
     return n * factorecursive(n-1)
 
-print(input("Enter a no.  ⤜(ⱺ ʖ̯ⱺ)⤏ :"))
+print(factorecursive(int(input("Enter a no.  ⤜(ⱺ ʖ̯ⱺ)⤏ :"))))
 
 # def hell():
 #     print("hello world!")

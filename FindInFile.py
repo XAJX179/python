@@ -1,5 +1,5 @@
 with open('sample.txt','r') as f:
-    x = str(f.read())
+    x = f.read()
 
 y= x.find('Bell')
 

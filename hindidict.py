@@ -5,4 +5,4 @@ HindiDict = {
 }
 print("Options are :",HindiDict.keys())
 a = input('Enter the Hindi word : ')
-print("Meaning of your word is :",HindiDict.get(a))#avoids error
+print("Meaning of your word is :",HindiDict.get(a,'error'))#avoids error

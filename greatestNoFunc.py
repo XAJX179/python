@@ -6,9 +6,9 @@ def great(a1,a2,a3):
     greatest=0
     if a1 >= a2 and a1>=a3:
         return a1
-    if  a2 >= a1 and a2>=a3:
+    elif  a2 >= a1 and a2>=a3:
         return a2
-    if a3 >= a1 and a3>=a2:
+    elif a3 >= a1 and a3>=a2:
         return a3
 
 greatest= great(n1,n2,n3)
