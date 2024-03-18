@@ -1,4 +1,2 @@
-
-        @staticmethod
-        def greet():
-            print("Good Morning!!!")
+t([1])
+    train1.getInfo()
