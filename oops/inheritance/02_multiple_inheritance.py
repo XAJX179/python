@@ -5,8 +5,8 @@ class Freelancer:
     company = "Fiverr"
 
 # class Programmer(Employee,Freelancer):
-
-class Programmer(Employee,Freelancer):
+    pass
+class Programmer(Freelancer,Employee):
     name = "XAJX"
 
 p = Programmer()
